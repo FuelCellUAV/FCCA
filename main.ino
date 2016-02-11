@@ -35,9 +35,9 @@ void setup() {
     FC[i].set_switch(en[i]);
   }
   for (int i = 0 ; i = sizeof(en) ; i++) {
-    pinMode(en[i], INPUT_PULLUP);
+    pinMode(en[i], INPUT);
   }
-  pinMode(enable, INPUT_PULLUP);
+  pinMode(enable, INPUT);
 }
 
 void loop() {
